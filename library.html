@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InkFlow | Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===== TOPBAR ===== -->
+<div class="topbar">
+  <div class="left">
+    <span id="menuBtn">☰</span>
+    <h2>InkFlow</h2>
+  </div>
+
+  <div class="nav-right">
+    <a href="create.html" class="write-btn">Write</a>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+
+
+<!-- ===== LAYOUT ===== -->
+<div class="layout">
+
+  <!-- ===== SIDEBAR ===== -->
+  <div class="sidebar">
+
+    <a href="index.html">
+      <span class="icon">🏠</span>
+      <span class="text">Home</span>
+    </a>
+
+    <a href="library.html" class="active">
+      <span class="icon">📚</span>
+      <span class="text">Library</span>
+    </a>
+
+    <a href="profile.html">
+      <span class="icon">👤</span>
+      <span class="text">Profile</span>
+    </a>
+
+  </div>
+
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <div class="content">
+
+    <h2 style="margin-bottom: 20px;">Your Library</h2>
+
+    <!-- BLOGS WILL LOAD HERE -->
+    <div id="myBlogs"></div>
+
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

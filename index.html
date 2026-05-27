@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InkFlow | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP NAV -->
+  <div class="topbar">
+
+  <div class="left">
+    <span id="menuBtn">☰</span>
+    <h2>InkFlow</h2>
+  </div>
+
+    <!-- CENTER -->
+  <div class="center">
+    <input type="text" placeholder="Search..." />
+  </div>
+
+
+  <div class="nav-right">
+  <a href="create.html" class="write-btn">Write</a>
+
+  <!-- PROFILE ICON -->
+  <div class="profile-menu">
+    <img src="https://i.pravatar.cc/35" id="profileBtn" class="avatar" />
+    
+
+    <!-- DROPDOWN -->
+    <div class="dropdown" id="dropdown">
+      <div class="dropdown-header">
+        <strong id="dropUsername">User</strong>
+        <p id="dropEmail">email@example.com</p>
+      </div>
+
+      <a href="profile.html">View Profile</a>
+      <a href="#">Settings</a>
+      <a href="#">Help</a>
+
+      <hr>
+
+      <button onclick="logout()">Sign out</button>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="layout">
+
+    <!-- LEFT SIDEBAR -->
+   <div class="sidebar">
+  <a href="index.html">
+    <span class="icon">🏠</span>
+    <span class="text">Home</span>
+  </a>
+
+  <a href="profile.html">
+    <span class="icon">👤</span>
+    <span class="text">Profile</span>
+  </a>
+
+  <a href="library.html">
+    <span class="icon">📚</span>
+    <span class="text">Library</span>
+  </a>
+</div>
+
+    <!-- CENTER CONTENT -->
+    <div class="content">
+      <h3>For You</h3>
+      <div id="blogs"></div>
+    </div>
+
+    <!-- RIGHT SIDEBAR -->
+    <div class="rightbar">
+      <h4>Recommended</h4>
+      <p>Programming</p>
+      <p>Self Growth</p>
+      <p>AI</p>
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
